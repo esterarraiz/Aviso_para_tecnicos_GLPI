@@ -3,8 +3,6 @@ from selenium.webdriver.support.ui import Select
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-import time
-from datetime import datetime
 
 class GLPIBot:
     def __init__(self, usuario, senha, url="https://chamados.idxdatacenters.com.br"):
@@ -56,7 +54,7 @@ class GLPIBot:
                         "categoria": categoria
                     })
             except Exception:
-                continue  # Pula linhas que não possuem o formato esperado
+                continue 
 
         if not lista_chamados:
             print("ℹ️ Nenhum chamado válido encontrado no momento.")

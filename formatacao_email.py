@@ -5,14 +5,12 @@ class EmailFormatar:
         self.nome_remetente = nome_remetente.title()
 
     def formatar_email(self, nome_tecnico, chamados):
-        # Monta a lista de chamados em HTML
         lista_html = ""
         for chamado in chamados:
             numero = chamado['numero']
             prazo = chamado['tempo_solucao']
             lista_html += f"<li><strong>Chamado nº {numero}</strong> — Prazo de solução: {prazo}</li>\n"
 
-        # Monta o corpo do e-mail
         mensagem = f"""
         <html>
             <body style="font-family: Arial, sans-serif; background-color: #f4f4f4; padding: 20px;">

@@ -8,8 +8,6 @@ class relatorio:
     def gerar_relatorio(self):
         limite_superior = self.hora_atual + timedelta(minutes=30)
         chamados_urgentes = []
-
-        # Inicializa os dicionários por técnico
         chamados_por_tecnico = {
             "Ester Matos": []
             #lista de tecnicos
