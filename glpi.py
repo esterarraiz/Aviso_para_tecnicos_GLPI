@@ -5,7 +5,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 class GLPIBot:
-    def __init__(self, usuario, senha, url="https://chamados.idxdatacenters.com.br"):
+    def __init__(self, usuario, senha, url="URL_do_GLPI"):
         self.usuario = usuario
         self.senha = senha
         self.url = url
