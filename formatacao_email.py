@@ -15,7 +15,7 @@ class EmailFormatar:
         <html>
             <body style="font-family: Arial, sans-serif; background-color: #f4f4f4; padding: 20px;">
                 <div style="text-align: center; background-color: #000; padding: 20px;">
-                    <img src="https://ugc.production.linktr.ee/ef83339a-c17f-44fd-a29e-9bad99c63a07_IDX---Logo-1-vertical-cor-invertida.png?io=true&size=avatar-v3_0" alt="Logo IDX Datacenters" width="100" />
+                    <img src="https://activfirst.co.uk/wp-content/uploads/logo-example.jpg" width="100" />
                 </div>
                 <div style="text-align: center;">
                     <div style="color:black; padding: 15px; border-radius: 8px 8px 0 0;">
